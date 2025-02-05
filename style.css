@@ -1,0 +1,50 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(224, 221, 215);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedor-principal {
+    background-color: rgb(255, 255, 255);
+    max-width: 200px;
+    padding: 30px 40px;
+    border-radius: 13px;
+    margin: auto;
+    margin-top: 260px; 
+    box-shadow: 3px 4px 4px #9c9ca5;
+    border: solid 2px #dcdcdf;
+}
+
+.contenedor-btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-gloval {
+    padding: 10px 20px;
+    font-weight: bold;
+    border: solid 2px #0400ff;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: scale;
+    transition: scale 0.3s ease, color 0.3s ease;
+}
+
+.btn2 {
+    border: solid 2px #ff0000;
+
+}
+
+.btn-gloval:hover {
+    background-color: #d3cccc;
+    color: rgb(0, 0, 0);
+    scale: 0.9;
+}
+
+#numero {
+    text-align: center;
+    margin: 5px;
+    font-size: 1.6rem;
+    border-bottom: solid 2px #5a5858;
+}
